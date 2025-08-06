@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Notion - DKB UNTAD</title>
+    <!-- icon Web -->
+    <link rel="shortcut icon" href="../assets/img/logo/favicon.ico" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .card {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        img {
+            max-width: 100px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+    <meta http-equiv="refresh" content="5;url=https://dkbuntad.notion.site/">
+</head>
+<body>
+    <div class="card">
+        <img src="../assets/img/logo/DKB UNTAD.png" alt="Logo Jejak Melodiary">
+        <h1>Redirecting to <b style="color: rgb(43, 137, 226);">Notion - DKB UNTAD</b></h1>
+        <p>Anda akan diarahkan ke Notion DKB UNTAD dalam <span id="countdown">5</span> detik...</p>
+    </div>
+    <script>
+        let countdown = 5;
+        const countdownElement = document.getElementById('countdown');
+        const interval = setInterval(() => {
+            countdown--;
+            countdownElement.textContent = countdown;
+            if (countdown <= 0) {
+                clearInterval(interval);
+            }
+        }, 1000);
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96a84dd84e595ffc","version":"2025.7.0","r":1,"token":"15b18fe5eeb24570970e2f17eca1d3e3","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
